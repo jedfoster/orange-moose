@@ -1,3 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-family: "Avenir Next", sans-serif;
+  color: #4a4a4a;
+  font-size: max(3.25vh, 14px);
+  caret-color: #4a90e2;
+}
+* {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: none !important;
+}
 body {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fcfcfc;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 1.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+}
+p,
+ul,
+ol {
+  font-size: 1em;
+  padding-bottom: 1.25em;
+}
+
+main {
+  margin: 2em 1em 8vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }

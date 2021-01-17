@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "completed": false,
+      "text": "Milk"
+    },
+    {
+      "completed": false,
+      "text": "Bread"
+    },
+    {
+      "completed": false,
+      "text": "Eggs"
+    },
+    {
+      "completed": false,
+      "text": "Cheese"
+    },
+    {
+      "completed": true,
+      "text": "Apples"
+    },
+    {
+      "completed": false,
+      "text": "Oranges"
+    },
+    {
+      "completed": false,
+      "text": "Sandwich meat"
+    },
+    {
+      "completed": true,
+      "text": "Lettuce"
+    },
+    {
+      "completed": true,
+      "text": "Tomatoes"
+    }
+  ]
+}

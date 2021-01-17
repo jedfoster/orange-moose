@@ -1,7 +1,13 @@
 import "./styles.css";
 import React from "react";
 import ReactDOM from "react-dom";
+import ToDo from "./ToDo.js";
+import { data } from "./data.json";
 
-const App = () => <h1>Hello World</h1>;
+const App = () => (
+  <main>
+    <ToDo data={data} />
+  </main>
+);
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("root"));
