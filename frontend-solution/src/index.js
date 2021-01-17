@@ -1,7 +1,12 @@
 import "./styles.css";
 import React from "react";
 import ReactDOM from "react-dom";
+import ToDo from "./ToDo.js";
 
-const App = () => <h1>Hello World</h1>;
+const App = () => (
+  <main>
+    <ToDo />
+  </main>
+);
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("root"));
