@@ -55,7 +55,6 @@ const ToDo = ({ data }) => {
   };
 
   const addItem = (text) => {
-    console.log(text);
     const items = [...todoItems];
 
     items.push({ text, completed: false });
