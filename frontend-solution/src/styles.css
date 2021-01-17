@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Avenir Next", sans-serif;
   color: #4a4a4a;
-  font-size: max(3.25vh, 18px);
+  font-size: max(3.25vh, 14px);
   caret-color: #4a90e2;
 }
 * {
@@ -37,16 +37,21 @@ ol {
 }
 
 h1 {
-  font-size: 4vh;
+  font-size: 1.5em;
   padding-bottom: 0.5em;
 }
 p,
 ul,
 ol {
-  font-size: 3vh;
+  font-size: 1em;
   padding-bottom: 1.25em;
 }
 
 main {
   margin: 2em 1em 8vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }

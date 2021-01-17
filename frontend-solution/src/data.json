@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "text": "Milk",
+      "completed": false
+    },
+    {
+      "text": "Bread",
+      "completed": false
+    },
+    {
+      "text": "Eggs",
+      "completed": false
+    },
+    {
+      "text": "Cheese",
+      "completed": false
+    },
+    {
+      "text": "Apples",
+      "completed": true
+    },
+    {
+      "text": "Oranges",
+      "completed": false
+    },
+    {
+      "text": "Sandwich meat",
+      "completed": false
+    },
+    {
+      "text": "Lettuce",
+      "completed": true
+    },
+    {
+      "text": "Tomatoes",
+      "completed": true
+    }
+  ]
+}
