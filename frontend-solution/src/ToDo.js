@@ -8,15 +8,17 @@ import React, { useState } from "react";
 */
 
 const ToDoItem = ({ text, completed, index, handleChange }) => {
+  const id = `item-${index}`;
   return (
-    <li>
+    <li className={completed ? "completed" : ""}>
       <input
         type="checkbox"
         value="checked"
         checked={completed}
         onChange={(e) => handleChange(index)}
+        id={id}
       />
-      {text}
+      <label htmlFor={id}>{text}</label>
     </li>
   );
 };

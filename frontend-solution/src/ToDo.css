@@ -1,0 +1,55 @@
+/*
+  Border gray: #979797
+  Fill gray: #D5D5D5
+  Completed text gray: #AAAAAA
+  Yellow: rgba(248, 210, 9, 60)
+  Input placeholder/Button text color: rgba(74, 74, 74, 60)
+  Input/Button border-radius: 0.5em;
+ */
+
+form {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+input {
+  border-radius: 0.5em;
+  border: 1px solid #979797;
+  margin: 0 1em;
+  padding: 0.333em;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+  width: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0.25em 0;
+}
+
+li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+li.completed:before {
+  background: #d5d5d5;
+}
+
+li.completed {
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+
+input[type="submit"] {
+  background: rgba(248, 210, 9, 60);
+  color: rgba(74, 74, 74, 60);
+}
