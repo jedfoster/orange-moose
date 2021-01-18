@@ -6,3 +6,15 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.completed {
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+.btn {
+  border-radius: 10%;
+  border: #979797 1px solid;
+  background-color: rgba(248, 210, 9, 60);
+  margin-left: 10px;
+  color: rgba(74, 74, 74, 60);
+}
