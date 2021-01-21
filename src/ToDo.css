@@ -6,3 +6,12 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.todo-list {
+  list-style: none;
+}
+
+.completed-item {
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
