@@ -9,6 +9,15 @@ import React, { useState } from "react";
     for the structure of that prop.
 */
 
-const ToDo = () => <i>todos go here</i>;
+const ToDo = (props) => {
+  return props.data.map((d) => {
+    return (
+      <div>
+        <input />
+        <span>{d.text}</span>
+      </div>
+    );
+  });
+};
 
 export default ToDo;
