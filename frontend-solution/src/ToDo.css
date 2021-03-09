@@ -9,13 +9,14 @@
 
 form {
   display: flex;
+  margin-left: 1.5em;
   margin-bottom: 1.5em;
 }
 
 input {
   border-radius: 0.5em;
   border: 1px solid #979797;
-  margin: 0 1em;
+  margin-right: 0.5em;
   padding: 0.333em;
 }
 
@@ -30,21 +31,21 @@ li {
   padding: 0.25em 0;
 }
 
-li:before {
+label:before {
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 1em;
+  height: 1em;
   border: 1px solid #979797;
   border-radius: 50%;
   margin-right: 0.5em;
 }
 
-li.completed:before {
+.completed label:before {
   background: #d5d5d5;
 }
 
-li.completed {
+.completed {
   color: #aaaaaa;
   text-decoration: line-through;
 }

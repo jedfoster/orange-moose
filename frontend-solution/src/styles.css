@@ -47,6 +47,10 @@ ol {
   padding-bottom: 1.25em;
 }
 
+input {
+  font-size: 1em;
+}
+
 main {
   margin: 2em 1em 8vh;
 }
