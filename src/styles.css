@@ -55,3 +55,15 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+.itemCompleted {
+  text-decoration: line-through;
+}
+
+.buttonClass {
+  background-color: yellow;
+}
+
+.prettyCorners {
+  border-radius: 5px;
+}
