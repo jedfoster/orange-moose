@@ -6,3 +6,25 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+li {
+  list-style: none;
+}
+
+#name-input {
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  padding: 6px;
+  color: #444;
+}
+
+#add-button {
+  border-radius: 6px;
+  background-color: yellow;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.item-complete label {
+  text-decoration: line-through;
+}
