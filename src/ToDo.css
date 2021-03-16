@@ -6,3 +6,23 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.ToDoList {
+  list-style-type: none;
+}
+
+.Completed {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+.AddButton {
+  border-radius: 0.5em;
+  border-color: #979797;
+  background-color: rgba(248, 210, 9, 60);
+  color: rgba(74, 74, 74, 60);
+}
+
+.AddText {
+  border-radius: 0.5em;
+}
