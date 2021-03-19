@@ -6,3 +6,17 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.input {
+  border-radius: 5px;
+}
+
+.completed {
+  list-style-type: none;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.incompleted {
+  list-style-type: none;
+}
