@@ -6,3 +6,22 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.done {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+
+.item-input {
+  border-color: #979797;
+  border-radius: 0.5em;
+}
+
+.add-button {
+  border-radius: 0.5em;
+  background-color: rgba(248, 210, 9, 60);
+}
+
+.item {
+  list-style: none;
+}
