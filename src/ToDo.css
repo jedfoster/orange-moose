@@ -1,8 +1,20 @@
 /*
   Border gray: #979797
-  Fill gray: #D5D5D5
+  Checkbox Fill gray: #D5D5D5
   Completed text gray: #AAAAAA
-  Yellow: rgba(248, 210, 9, 60)
+  Button Fill Yellow: rgba(248, 210, 9, 60)
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.add-button {
+  background: rgba(248, 210, 9, 60);
+  border: solid 1px #979797;
+  border-radius: 0.5em;
+  color: rgba(74, 74, 74, 60);
+}
+
+.line-through-text {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
