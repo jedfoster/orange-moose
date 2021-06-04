@@ -8,6 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "express": "4.17.1",
     "react": "16.8.3",
     "react-dom": "16.8.3"
   },
