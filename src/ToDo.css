@@ -6,3 +6,7 @@
   Placeholder/Button text color: rgba(74, 74, 74, 60)
   Input/Button border-radius: 0.5em;
  */
+
+.completed-class {
+  text-decoration: line-through;
+}
