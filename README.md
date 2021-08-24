@@ -7,8 +7,8 @@ There is a [mockup PNG](./mock-up.png) in the file list to your left. You may fi
 
 ## Desired functionality
 
-* Able to add new items
-* Able toggle the completed state of items by clicking on them
+* Add new items
+* Toggle completion state by clicking on an item
 
 
 ## Pay attention to
@@ -25,6 +25,7 @@ An individual item is an object in the form of:
 
 ```javascript
   {
+    "id": String,
     "completed": Boolean,
     "text": String
   }
