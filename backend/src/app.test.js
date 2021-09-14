@@ -6,6 +6,11 @@ describe("GET /", () => {
     const { body, statusCode } = await request(app).get("/");
 
     expect(statusCode).toBe(200);
+
+    const thirdItem = body.data[2];
+
+    expect(thirdItem.text).toBe("Eggs");
+    expect(thirdItem.completed).toBe(false);
   });
 });
 
