@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": "b6d35095-def2-42c3-9319-a92b9895f93d",
+      "completed": false,
+      "text": "Milk"
+    },
+    {
+      "id": "afab85a5-36de-45ea-b2cd-e923cf7f6645",
+      "completed": false,
+      "text": "Bread"
+    },
+    {
+      "id": "41487b5f-3f62-42a8-b922-ee67e5f767a4",
+      "completed": false,
+      "text": "Eggs"
+    },
+    {
+      "id": "e043046d-0b5f-4d4b-b4e6-f0f6cc30e6d4",
+      "completed": false,
+      "text": "Cheese"
+    },
+    {
+      "id": "82abb901-5c8f-486c-b417-a7be962d7f48",
+      "completed": true,
+      "text": "Apples"
+    },
+    {
+      "id": "032a0248-4caa-4ed4-a53a-de0e2c71b8d1",
+      "completed": false,
+      "text": "Oranges"
+    },
+    {
+      "id": "0af8d4d1-4af8-4eb4-a74b-02cefde78834",
+      "completed": false,
+      "text": "Sandwich meat"
+    },
+    {
+      "id": "b6deb00b-68f1-41e3-bf9e-e39aa9f69d87",
+      "completed": true,
+      "text": "Lettuce"
+    },
+    {
+      "id": "3f5ab32d-8f1d-4047-8d81-d42437830549",
+      "completed": true,
+      "text": "Tomatoes"
+    }
+  ]
+}
