@@ -1,0 +1,9 @@
+{
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": true,
+  "view": "terminal",
+  "container": {
+    "port": 4000,
+    "node": "14"
+  }
+}
